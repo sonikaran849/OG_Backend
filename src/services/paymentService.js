@@ -18,7 +18,7 @@ const createPaymentLink = async (orderId)=>{
                 email:true,
             },
             reminder_enable:true,
-            callback_url: `https://originals-ducs-ks.netlify.app/payment/${orderId}`,
+            callback_url: `https://originals-ducs-ks.netlify.app/account/order/${orderId}`,
             callback_method: 'get'
         };
         
